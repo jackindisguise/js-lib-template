@@ -1,0 +1,34 @@
+{
+	"name": "js-lib-template",
+	"version": "1.0.0",
+	"description": "",
+	"main": "./dist/index.js",
+	"module": "./dist/index.mjs",
+	"types": "./dist/index.d.ts",
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"import": "./dist/index.mjs",
+			"require": "./dist/index.js"
+		}
+	},
+	"scripts": {
+		"clean": "npx rimraf -rf dist",
+		"bundle": "npx tsup",
+		"test:clean": "npm run clean && npm run bundle && npm run test",
+		"test": "tsx --test"
+	},
+	"keywords": [
+		"javascript",
+		"library",
+		"template"
+	],
+	"author": "jackindisguise",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/node": "^25.9.1",
+		"tsup": "^8.5.1",
+		"tsx": "^4.22.3",
+		"typescript": "^6.0.3"
+	}
+}

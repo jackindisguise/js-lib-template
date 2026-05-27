@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/index.ts"],"sourcesContent":["export function abc(): 1 {\r\n\treturn 1;\r\n}\r\n\r\nexport default abc;\r\n"],"mappings":";AAAO,SAAS,MAAS;AACxB,SAAO;AACR;AAEA,IAAO,gBAAQ;","names":[]}
