@@ -20,14 +20,12 @@ var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: tru
 // src/index.ts
 var index_exports = {};
 __export(index_exports, {
-  abc: () => abc,
-  default: () => index_default
+  abc: () => abc
 });
 module.exports = __toCommonJS(index_exports);
 function abc() {
-  return 1;
+  return 2;
 }
-var index_default = abc;
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
   abc

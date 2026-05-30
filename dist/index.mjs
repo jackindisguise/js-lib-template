@@ -1,10 +1,8 @@
 // src/index.ts
 function abc() {
-  return 1;
+  return 2;
 }
-var index_default = abc;
 export {
-  abc,
-  index_default as default
+  abc
 };
 //# sourceMappingURL=index.mjs.map
